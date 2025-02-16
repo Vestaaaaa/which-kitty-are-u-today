@@ -14,6 +14,8 @@
   color: white;
 }
 
-img {
-  border-radius: 10px;
+@media (max-width: 768px) {
+  .App-header {
+    padding: 20px;
+  }
 }

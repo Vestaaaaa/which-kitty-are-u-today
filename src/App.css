@@ -11,6 +11,29 @@
 
 p {
   text-align: center;
-  width: 700px;
-  height: 50px;
+  max-width: 700px;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .button {
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  video {
+    width: 90%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
 }
