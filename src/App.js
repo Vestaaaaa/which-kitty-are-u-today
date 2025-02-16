@@ -55,6 +55,7 @@ function App() {
         <h1>Which kitty are u today?</h1>
         {memeImage && (
           <video
+            className="video-disabled"
             src={memeImage}
             alt="Random Cat"
             style={{ width: "400px", height: "400px" }}
@@ -62,6 +63,7 @@ function App() {
             loop
             muted
             preload="metadata"
+            controls
           />
         )}
         {memeImage && <p>{affirmation}</p>}

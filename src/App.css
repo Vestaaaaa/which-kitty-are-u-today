@@ -37,3 +37,7 @@ p {
     font-size: 24px;
   }
 }
+
+.video-disabled {
+  pointer-events: none;
+}
